@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin-top: 0;
+    font-family: cursive;
+    width: 1400px;
+    height: auto;
+}
+.content{
+    position: absolute;
+    background-color: purple;
+    width: 100%;
+}
+nav{
+    overflow: hidden;
+    text-align: right;
+    height: 55px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    padding-right: 30px;
+}
+nav a{
+    margin-right: 25px;
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+}
+nav a:hover{
+    color: white;
+    background-color: violet;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+#video{
+    display: flex;
+    overflow: hidden;
+    margin-top: 5%;
+    position: absolute;
+    height: 750px;
+    width: 100%;
+}
+#r1{
+    height: 600px;
+    width: 100%;
+}
+#r1c1{
+    margin-left: 1%;
+    width: 19%;
+    margin-right: 1%;
+}
+
+#r1c2{
+    width: 20%;
+    margin-right: 1%;
+}
+
+#r1c3{
+    width: 20%;
+    margin-right: 1%;
+}
+
+#r1c4{
+    width: 20%;
+    margin-right: 1%;
+}
+
+#r1c5{
+    width: 16%;
+}
+#r1 div{
+    margin-top: 900px;
+    float: left;
+    height: 300px;
+}
+
+#r2{
+    height: 4px00;
+    width: 100%;
+}
+#r2c1{
+    margin-left: 1%;
+    width: 19%;
+    margin-right: 1%;
+}
+
+#r2c2{
+    width: 20%;
+    margin-right: 1%;
+}
+
+#r2c3{
+    width: 20%;
+    margin-right: 1%;
+}
+
+#r2c4{
+    width: 20%;
+    margin-right: 1%;
+}
+
+#r2c5{
+    width: 16%;
+}
+#r2 div{
+    margin-top: 100px;
+    float: left;
+    height: 300px;
+}
+#img{
+    width: 250px;
+    height: 250px;
+}
+.txt{
+    font-family: cursive;
+    margin-top: 80px;
+    position: absolute;
+    color: purple;
+    font-size: 50px;
+}
+
+footer{
+    position:absolute;
+    background-color:purple;
+    color: lightblue;
+    margin-top: 1000px;
+    height: 300px;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
